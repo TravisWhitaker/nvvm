@@ -75,6 +75,8 @@ library
   build-tools:
       c2hs              >= 0.21
 
+  cc-options: -D__GNUC__=7 -D__GNUC_MINOR__=1
+
 
 source-repository head
   type:                 git
